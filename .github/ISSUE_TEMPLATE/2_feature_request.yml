@@ -2,9 +2,10 @@ name: 🚀 Feature Request
 description: Submit a feature request (but only if you're planning on implementing it)
 body:
   - type: markdown
-    value: |
-      Please only submit feature requests if you plan on implementing the feature yourself.
-      See the [contributing code documentation](https://docs.silverstripe.org/en/contributing/code/#make-or-find-a-github-issue) for more guidelines about submitting feature requests.
+    attributes:
+      value: |
+        Please only submit feature requests if you plan on implementing the feature yourself.
+        See the [contributing code documentation](https://docs.silverstripe.org/en/contributing/code/#make-or-find-a-github-issue) for more guidelines about submitting feature requests.
   - type: textarea
     id: description
     attributes:

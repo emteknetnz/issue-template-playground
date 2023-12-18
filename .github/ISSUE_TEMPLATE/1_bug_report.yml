@@ -58,7 +58,7 @@ body:
       label: Additional Context
       description: "*Optional: any other context about the problem: log messages, screenshots, etc.*"
   - type: checkboxes
-    id: cat-preferences
+    id: validations
     attributes:
       label: Validations
       description: "Before submitting the issue, please make sure you do the following:"

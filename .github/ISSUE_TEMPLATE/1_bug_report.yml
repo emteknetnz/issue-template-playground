@@ -65,5 +65,5 @@ body:
       options:
         - label: Check that there isn't already an issue that reports the same bug
           required: true
-        - label: Double check that your reproduction steps work in a fresh installation of [`silverstripe/installer`](https://github.com/silverstripe/silverstripe-installer) (with any code examples you've provided)
+        - label: Double check that your reproduction steps work in a fresh installation of **silverstripe/installer** (with any code examples you've provided)
           required: true

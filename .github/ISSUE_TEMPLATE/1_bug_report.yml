@@ -32,10 +32,12 @@ body:
         - If part of the bug includes an error or exception, please provide a full stack trace.
         - If any user interaction is required to reproduce the bug, please add an ordered list of steps that are required to reproduce it.
         - Be as clear as you can, but don't miss any steps out. Simply saying "create a page" is less useful than guiding us through the steps you're taking to create a page, for example.
-      value: |
+      placeholder: |
         #### Code sample
+        ```php
         
-        #### REproduction steps
+        ```
+        #### Reproduction steps
         1. 
     validations:
       required: true

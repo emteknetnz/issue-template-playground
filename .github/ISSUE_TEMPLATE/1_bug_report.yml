@@ -3,6 +3,10 @@ description: Tell us if something isn't working the way it's supposed to
 labels: Bug
 
 body:
+  - type: markdown
+    id: call-to-action-pr
+    attributes:
+      value: We strongly encourage you to [submit a pull request](https://docs.silverstripe.org/en/contributing/code/) which fixes the issue. Bug reports which are accompanied with a pull request are a lot more likely to be resolved quickly.
   - type: input
     id: affected-versions
     attributes:
@@ -47,7 +51,7 @@ body:
       label: Possible Solution
       description: |
         *Optional: only if you have suggestions on a fix/reason for the bug*
-        Please consider creating a pull request with your solution! It helps get faster feedback and greatly increases the chance of the bug being fixed.
+        Please consider [submitting a pull request](https://docs.silverstripe.org/en/contributing/code/) with your solution! It helps get faster feedback and greatly increases the chance of the bug being fixed.
   - type: textarea
     id: additional-context
     attributes:

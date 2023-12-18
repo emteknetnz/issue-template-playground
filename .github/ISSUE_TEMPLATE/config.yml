@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Support Question
     url: https://www.silverstripe.org/community/
-    about: We use GitHub issues only to discuss about bugs and new features. For support questions, please use one of the support options available in our [community channels](https://www.silverstripe.org/community/).
+    about: We use GitHub issues only to discuss about bugs and new features. For support questions, please use one of the support options available in our community channels.

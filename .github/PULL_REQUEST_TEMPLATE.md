@@ -1,9 +1,18 @@
 <!--
   Thanks for contributing, you're awesome! ⭐
-  Please describe expected and observed behaviour, and what you're fixing.
-  For visual fixes, please include tested browsers and screenshots.
   
   Please read https://docs.silverstripe.org/en/contributing/code/ if you haven't contributed to this project recently.
+-->
+## Description
+<!--
+  Please describe expected and observed behaviour, and what you're fixing.
+  For visual fixes, please include tested browsers and screenshots.
+-->
+
+## Manual testing steps
+<!--
+  Include any manual testing steps here which a reviewer can perform to validate your pull request works correctly.
+  Note that this DOES NOT replace unit or end-to-end tests.
 -->
 
 ## Issues

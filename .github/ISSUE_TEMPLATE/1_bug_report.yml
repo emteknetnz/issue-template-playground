@@ -8,8 +8,8 @@ body:
     attributes:
       label: Module version(s) affected
       description: |
-      What version of _this module_ have you reproduced this bug on?
-      Run `composer info` to see the specific version of each module installed in your project.
+        What version of _this module_ have you reproduced this bug on?
+        Run `composer info` to see the specific version of each module installed in your project.
       placeholder: x.y.z
     validations:
       required: true
@@ -25,13 +25,13 @@ body:
     attributes:
       label: How to reproduce
       description: |
-      ⚠️  This is the most important part of the report ⚠️
-      Without a way to easily reproduce your issue, there is little chance we will be able to help you and work on a fix.
-      - Please, take the time to show us some code and/or configuration that is needed for others to reproduce the problem easily.
-      - If the bug is too complex to reproduce with some short code samples, please reproduce it in a public repository and provide a link to the repository along with steps for setting up and reproducing the bug using that repository.
-      - If part of the bug includes an error or exception, please provide a full stack trace.
-      - If any user interaction is required to reproduce the bug, please add an ordered list of steps that are required to reproduce it.
-      - Be as clear as you can, but don't miss any steps out. Simply saying "create a page" is less useful than guiding us through the steps you're taking to create a page, for example.
+        ⚠️  This is the most important part of the report ⚠️
+        Without a way to easily reproduce your issue, there is little chance we will be able to help you and work on a fix.
+        - Please, take the time to show us some code and/or configuration that is needed for others to reproduce the problem easily.
+        - If the bug is too complex to reproduce with some short code samples, please reproduce it in a public repository and provide a link to the repository along with steps for setting up and reproducing the bug using that repository.
+        - If part of the bug includes an error or exception, please provide a full stack trace.
+        - If any user interaction is required to reproduce the bug, please add an ordered list of steps that are required to reproduce it.
+        - Be as clear as you can, but don't miss any steps out. Simply saying "create a page" is less useful than guiding us through the steps you're taking to create a page, for example.
     placeholder: |
       #### Code sample
       
@@ -44,8 +44,8 @@ body:
     attributes:
       label: Possible Solution
       description: |
-      *Optional: only if you have suggestions on a fix/reason for the bug*
-      Please consider creating a pull request with your solution! It helps get faster feedback and greatly increases the chance of the bug being fixed.
+        *Optional: only if you have suggestions on a fix/reason for the bug*
+        Please consider creating a pull request with your solution! It helps get faster feedback and greatly increases the chance of the bug being fixed.
   - type: textarea
     id: additional-context
     attributes:

@@ -1,10 +1,8 @@
 name: 🐛 Bug Report
 description: Tell us if something isn't working the way it's supposed to
-labels: Bug
 
 body:
   - type: markdown
-    id: call-to-action-pr
     attributes:
       value: We strongly encourage you to [submit a pull request](https://docs.silverstripe.org/en/contributing/code/) which fixes the issue. Bug reports which are accompanied with a pull request are a lot more likely to be resolved quickly.
   - type: input
@@ -59,3 +57,13 @@ body:
     attributes:
       label: Additional Context
       description: "*Optional: any other context about the problem: log messages, screenshots, etc.*"
+  - type: checkboxes
+    id: cat-preferences
+    attributes:
+      label: Validations
+      description: Before submitting the issue, please make sure you do the following:
+      options:
+        - label: Check that there isn't already an issue that reports the same bug
+          required: true
+        - label: Double check that your reproduction steps work in a fresh installation of silverstripe/installer (with any code examples you've provided)
+          required: true
